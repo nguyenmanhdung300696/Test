@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/// Class này thì e dùng cố định luôn. để tại Util connect db nên k cần nhớ
 public class SqlConnectionDb {
 	public static Connection getMySQLConnection() throws ClassNotFoundException, SQLException {
 		String hostName = "localhost";

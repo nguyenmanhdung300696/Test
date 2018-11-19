@@ -8,7 +8,11 @@ public class Test {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		AppConnectionDB appConnectionDB= new AppConnectionDB();
+		appConnectionDB.InsertInformation();
+		appConnectionDB.show();
+		appConnectionDB.DeleteInformation();
 		appConnectionDB.show();
 	}
 
 }
+
